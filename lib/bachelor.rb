@@ -1,8 +1,8 @@
 require "pry"
 def get_first_name_of_season_winner(data, season)
   data.each do |season, name|
-    bindind.pry
-    
+    binding.pry
+
 
   end
 end
