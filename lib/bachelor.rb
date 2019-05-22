@@ -4,8 +4,9 @@ def get_first_name_of_season_winner(data, season)
     player.each do |k, v|
       if ["status"] == "winner"
         return ["name"]
+        binding.pry
     end
-    binding.pry
+
 
 
   end
